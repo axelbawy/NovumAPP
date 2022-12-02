@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FichaSocioEc">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/bauh93"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="FICHA SOCIOECONOMICA"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bauh93"
+                android:text="CEDULA:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editCedula"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editNombre"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="APELLIDO:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editApellido"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EMAIL:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TELEFONO:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTelefono"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CIUDAD:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editCiudad"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PAIS"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editPais"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LUGAR DE NACIMIENTO:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editLugarNacimiento"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INSTRUCCION:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editInstruccion"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE MADRE:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editNomMadre"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE PADRE:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editNomPadre"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NUMERO PADRE:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editNumPadre"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NUMERO MADRE:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editNumMadre"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OCUPACION:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editOcupacion"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DOMICILIO:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editDomicilio"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SALARIO:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editSalario"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NUMERO DE INTEGRANTES:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editNumIntegrantes"
+                android:fontFamily="@font/bauh93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+            <Button
+                android:id="@+id/btn_Gurdar"
+                app:cornerRadius="20dp"
+                android:backgroundTint="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

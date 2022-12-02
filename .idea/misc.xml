@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1885" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/font/font.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/activity_categoria.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/activity_config_usuario.xml" value="0.176" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/activity_exteriores.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/activity_favoritos.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/activity_ficha_socio_ec.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/activity_interiores.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/activity_llenar_registro.xml" value="0.16" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/activity_ofertas.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/activity_productos.xml" value="0.1875" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/activity_registro.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/activity_subcategorias.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/activity_usuario.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/list_item.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/list_item_cat.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/list_item_prod.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Novum/app/src/main/res/layout/list_item_producto.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/ASUS/Downloads/Novum (3)/Novum/app/src/main/res/layout/activity_categoria.xml" value="0.12182971014492754" />
+        <entry key="..\:/Users/ASUS/Downloads/Novum (3)/Novum/app/src/main/res/layout/activity_registro.xml" value="0.171875" />
+        <entry key="..\:/Users/ASUS/Downloads/Novum (3)/Novum/app/src/main/res/layout/activity_subcategorias.xml" value="0.171875" />
+        <entry key="..\:/Users/ASUS/Downloads/Novum (3)/Novum/app/src/main/res/layout/list_item_cat.xml" value="0.171875" />
+        <entry key="..\:/Users/ASUS/Downloads/Novum (3)/Novum/app/src/main/res/layout/list_item_fav.xml" value="0.15208333333333332" />
+        <entry key="..\:/Users/Usuario/Desktop/Novum/app/src/main/res/layout/activity_categoria.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Usuario/Desktop/Novum/app/src/main/res/layout/activity_favoritos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Usuario/Desktop/Novum/app/src/main/res/layout/activity_subcategorias.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/Desktop/Novum/app/src/main/res/layout/list_item_cat.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Usuario/Desktop/Novum/app/src/main/res/layout/list_item_fav.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Usuario/Desktop/Novum/app/src/main/res/layout/list_item_prod.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Usuario/Desktop/Novum/app/src/main/res/layout/list_item_subcat.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>
